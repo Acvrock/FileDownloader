@@ -38,8 +38,8 @@ function toggleAll() {
 function filterLinks() {
   console.log(allLinks[0]);
   for (var i =0; i < allLinks.length ; i++) {
-    if ((allLinks[i].substr(allLinks[i].length - 4) == '.pdf')) ||
-        (allLinks[i].substr(allLinks[i].length - 4) == '.doc')) ||
+    if ((allLinks[i].substr(allLinks[i].length - 4) == '.pdf') ||
+        (allLinks[i].substr(allLinks[i].length - 4) == '.doc') ||
         (allLinks[i].substr(allLinks[i].length - 5) == '.docx')) {
           visibleLinks.push(allLinks[i]);
     }

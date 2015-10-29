@@ -3,7 +3,7 @@
 	"description": " Select your pdf/doc files links on a page and download them.",
 	"version": "1.0",
 	"manifest_version": 2,
-	"browser_action": {"default_title": "Files downloader",
+	"browser_action": {"default_title": "File downloader",
 										 "default_popup": "/popup/popup.html",
 										 "default_icon": "/images/icon.png"},
 	"permissions": ["downloads",

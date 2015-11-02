@@ -62,7 +62,8 @@ function showLinks() {
     checkbox.type = 'checkbox';
     checkbox.id = 'check' + i;
     col0.appendChild(checkbox);
-    col1.innerText = visibleLinks[i];
+    linksTextArray = visibleLinks[i].split("/");
+    col1.innerText = linksTextArray[linksTextArray.length - 1];
     col1.style.whiteSpace = 'nowrap';
     col1.onclick = function() {
       checkbox.checked = !checkbox.checked;
